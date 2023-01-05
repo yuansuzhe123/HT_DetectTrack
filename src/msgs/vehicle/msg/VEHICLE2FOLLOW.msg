@@ -1,0 +1,9 @@
+int32 VehicleID
+int32 CenterX
+int32 CenterY
+int32 Width
+int32 Length
+int32 Heading
+int32 Speed
+int32 SpeedDirection
+int32 Height

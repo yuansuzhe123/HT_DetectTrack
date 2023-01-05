@@ -1,0 +1,9 @@
+    int32 pointNum
+    globalpoint[]   globalPoints
+    int32 propNum
+    float64[]          propArrays
+    globalpoint[] ReturnGlobalPoint
+    int32 cType
+    int16 taskState   
+    int16 locationSource 
+    int32 speedLimit               

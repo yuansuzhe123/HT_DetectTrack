@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>msg_lidar_shape</name>
+  <version>0.0.0</version>
+  <description>The msg_lidar_shape package</description>
+
+
+  <maintainer email="qxh880507@163.com">qxh</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <!-- Basic depends -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+<depend>visualization_msgs</depend>
+
+  <!-- Depends on msg. -->
+  <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+<!--  <build_depend>visualization_msgs</build_depend>-->
+
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>message_generation</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+<!--  <exec_depend>visualization_msgs</exec_depend>-->
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
